@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     FrameLayout frameLayout;
 
     private static final String TAG_NORMAL = "NormalFragment";
-    private NormalFragment normalFragment;
+    //private NormalFragment normalFragment;
 
     private static final String TAG_REVERSE = "ReverseFragment";
 
@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         ButterKnife.bind(this);
         new ActivityController(this);
+        //Attempt at not using configChanges
 //        if (savedInstanceState == null) {
 //            new ActivityController(this);
 //        } else {
