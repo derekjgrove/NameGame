@@ -41,7 +41,7 @@ public class MasterFragmentController implements ControllerInt {
         randomPeople = new ArrayList<Person>(5);
         while (randomPeople.size()!=5) {
             Person person = randomizer.pickOne(people);
-            if (person.getFirstName().subSequence(0,3).equals("Mat")) {
+            if ((person.getFirstName().subString(0,3)).equals("Mat")) {
                 if(!randomPeople.contains(person)) {
                     randomPeople.add(person);
                 }
