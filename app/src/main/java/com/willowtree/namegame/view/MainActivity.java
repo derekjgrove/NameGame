@@ -74,8 +74,8 @@ public class MainActivity extends AppCompatActivity {
         Bundle bundle = new Bundle();
         switch (id) {
             case R.id.normal_mode :
-                normalFragment = (NormalFragment) getSupportFragmentManager().findFragmentByTag(TAG_NORMAL);
-                if (normalFragment == null) {
+                //normalFragment = (NormalFragment) getSupportFragmentManager().findFragmentByTag(TAG_NORMAL);
+                //if (normalFragment == null) {
                     bundle.putInt("GameMode", 0);
                     NormalFragment normalFragment = new NormalFragment();
                     normalFragment.setArguments(bundle);
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                             .replace(R.id.container, normalFragment, TAG_NORMAL)
                             .setTransition(FragmentTransaction.TRANSIT_ENTER_MASK)
                             .commit();
-                }
+                //}
                 break;
             case R.id.matt_mode :
                 bundle.putInt("GameMode", 1);
