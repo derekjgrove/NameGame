@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NameGame</string>
+
+    <string name="Normal_Mode">Normal Mode</string>
+    <string name="Matt_Mode">Mat(t) Mode</string>
+    <string name="Reverse_Mode">Reverse Mode</string>
+    <string name="Hint_Mode">Hint Mode</string>
+    <string name="Report">Report</string>
+
+    <string name="question">Who is %s?</string>
+    <string name="cdFace">A face</string>
+</resources>

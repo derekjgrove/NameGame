@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.willowtree.namegame.view.MainActivity">
+    <item
+    android:id="@+id/normal_mode"
+    android:orderInCategory="100"
+    android:title="@string/Normal_Mode"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/matt_mode"
+        android:orderInCategory="200"
+        android:title="@string/Matt_Mode"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/reverse_mode"
+        android:orderInCategory="300"
+        android:title="@string/Reverse_Mode"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/hint_mode"
+        android:orderInCategory="400"
+        android:title="@string/Hint_Mode"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/report"
+        android:orderInCategory="400"
+        android:title="@string/Report"
+        app:showAsAction="never" />
+</menu>
